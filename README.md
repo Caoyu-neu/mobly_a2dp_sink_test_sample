@@ -73,3 +73,14 @@ Android libraries like UI Automator and Espresso.
 * [Mobly Bundled Snippets](https://github.com/google/mobly-bundled-snippets): a set
 of Snippets to allow Mobly tests to control Android devices by exposing a simplified
 version of the public Android API suitable for testing.
+
+
+## 关于mobly_a2dp_sink_test_sample
+基于google mobly master fork出来的分支，追加了测试case样例，用于测试esp32 bluetooth sink和树莓派source之间蓝牙音频通信（classical，A2DP pipeline）。
+
+测试样例位于a2dp_sink_test_sample文件夹下。
+
+测试命令为：
+python a2dp_sink_test.py -c sample_config.yml
+
+测试环境配置方式参照a2dp_sink_test_sample/测试环境说明.xlsx中。
