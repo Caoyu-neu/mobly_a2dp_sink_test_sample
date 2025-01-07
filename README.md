@@ -83,4 +83,4 @@ version of the public Android API suitable for testing.
 测试命令为：
 python a2dp_sink_test.py -c sample_config.yml
 
-测试环境配置方式参照a2dp_sink_test_sample/测试环境说明.xlsx中。
+测试环境配置方式参照测试环境说明.xlsx。
